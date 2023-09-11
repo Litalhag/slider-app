@@ -21,7 +21,7 @@ const slickCarousel = () => {
   return (
     <section className="slick-container">
       <Slider {...settings}>
-        {list.map((person) => {
+        {longList.map((person) => {
           const { id, image, name, title, quote } = person
           return (
             <article key={id}>
